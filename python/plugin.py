@@ -112,6 +112,10 @@ def custom_template():
     name = vim.eval("a:template")
     Buffer = vim.current.buffer
     final_file = _custom(name)
+
+    if not final_file:
+        final_file = _default(name)
+
     write_to_vim(Buffer, final_file)
     pass
 
