@@ -1,8 +1,23 @@
 # Vim-Template: A Boiler Plate Code Generator
 
+Table of Contents
+=================
+
+* [Vim\-Template: A Boiler Plate Code Generator](#vim-template-a-boiler-plate-code-generator)
+  * [Description](#description)
+  * [Requirement](#requirement)
+  * [How to use it](#how-to-use-it)
+    * [Default Templates](#default-templates)
+    * [Custom Templates](#custom-templates)
+  * [Extra Information](#extra-information)
+  * [TODO](#todo)
+
 ## Description
 Vim-Template is my first attempt at writing a vim plugin so it might not be the best one out there. It's written
 in python with a VimL Wrapper over the python code.
+
+## Requirement
+Python support is needed for the plugin to work
 
 ## How to use it
 There are two ways to utilise the plugin:
@@ -50,3 +65,4 @@ By default the class name for Java files and title for HTML files is the file na
 
 ## TODO
 1. Implement boiler plate source code from header files
+
