@@ -1,0 +1,30 @@
+# Compiler
+CXX = clang++
+
+#place holder to include directories
+INCLUDES =
+
+#Flags for compiling
+CXXFLAGS = -g -Wall -std=c++11 -stdlib=libc++ $(INCLUDES)
+
+#Flags for linking
+LDFLAGS = -g
+
+
+#Incase any other libraries are needed
+LDLIBS =
+
+executables =
+
+objects =
+
+.PHONY: default
+default: $(executables)
+
+$(executables):
+
+$(objects):
+
+.PHONY: clean
+clean:
+	rm -rf *.out $(executables) *.o
