@@ -55,6 +55,10 @@ def _default(name):
     key = "%here%"
     value = name[0:index]
     extension = name[index+1:]
+
+    if extension == "h":
+        value = value.upper() + "_H"
+
     return _final_buffer(extension, DIRC, default_dict, key, value)
 
 
