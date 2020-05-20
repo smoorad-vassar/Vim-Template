@@ -17,11 +17,11 @@ in python with a VimL Wrapper over the python code.
 
 ## Requirement
 Python3 support is needed for the plugin to work:
-* Almost all vim 8 have python3 unless you are working with the default mac vim. I'd suggest to download the latest vim version using homebrew:
+* Almost all vim 8 have python3 unless you are working with the default MacOS vim. I'd suggest to download the latest vim version using homebrew:
 ```
 brew install vim
 ```
-* Neovim requires you to install python3 module. Look up the documentation at to install the module:
+* Neovim requires you to install python3 module. Look up the documentation to install the module:
 ```
 :help provider
 ```
