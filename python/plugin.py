@@ -82,6 +82,9 @@ def _final_buffer(template, DIRC, default_dict, key, value):
     if(template not in default_dict):
         return None
 
+    if(DIRC[-1] != "/"):
+        DIRC = DIRC + "/"
+
     load_file = DIRC + default_dict[template]
     loaded_file = load_skeleton(load_file)
     return fill_skeleton(loaded_file, key, value)
