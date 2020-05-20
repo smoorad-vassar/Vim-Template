@@ -88,3 +88,4 @@ By default the class name for Java files and title for HTML files is the file na
 ## TODO
 1. Implement boiler plate source code from header files
 2. <s>Allow user to set a path for custom_templates directory</s>
+3. Make code portable for windows system
