@@ -60,7 +60,7 @@ That would add the default template for the file.
 To use a custom template first you need to create it. This can be done as follows:
 - Set path for your custom templates in your vimrc/init.vim using:
 ```
-let g:vim_template_custom_directory
+let g:vim_template_custom_directory:'path/to/custom/directory'
 ```
 - If no path is set my custom_templates directory provided with the repo is used
 - Create a custom file with customName_template
