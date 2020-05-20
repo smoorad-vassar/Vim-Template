@@ -84,4 +84,4 @@ By default the class name for Java files and title for HTML files is the file na
 
 ## TODO
 1. Implement boiler plate source code from header files
-2. Move custom_templates directory outside the plugin directory
+2. Allow user to set a path for custom_templates directory
