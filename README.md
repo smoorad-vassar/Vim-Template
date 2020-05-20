@@ -77,7 +77,7 @@ So for example to generate Makefile template for a C project we run:
 To use the default templates in a file that doesn't contain the proper extension. For, example if you want to add html boiler plate code to a text file called
 test.txt then the following code can be utilised:
 ```
-:CustomTemplate test.html
+:CustomTemplate html
 ```
 By default the class name for Java files and title for HTML files is the file name.
 

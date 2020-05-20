@@ -117,6 +117,9 @@ def custom_template():
     final_file = _custom(name)
 
     if not final_file:
+        file_name = _file_name(Buffer)
+        index = file_name.rfind(".")
+        name = file_name[0:index] + name
         final_file = _default(name)
 
     write_to_vim(Buffer, final_file)
