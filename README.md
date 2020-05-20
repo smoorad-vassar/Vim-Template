@@ -17,7 +17,15 @@ Vim-Template is my first attempt at writing a vim plugin so it might not be the 
 in python with a VimL Wrapper over the python code.
 
 ## Requirement
-Python support is needed for the plugin to work
+Python3 support is needed for the plugin to work:
+* Almost all vim 8 have python3 unless you are working with the default mac vim. I'd suggest to download the latest vim version using homebrew:
+```
+brew install vim
+```
+* Neovim requires you to install python3 module. Look up the documentation at to install the module:
+```
+:help provider
+```
 
 ## How to use it
 There are two ways to utilise the plugin:
