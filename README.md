@@ -16,6 +16,8 @@ Table of Contents
 Vim-Template is my first attempt at writing a vim plugin so it might not be the best one out there. It's written
 in python with a VimL Wrapper over the python code.
 
+![](usage.gif)
+
 ## Requirement
 Python3 support is needed for the plugin to work:
 * Almost all vim 8 have python3 unless you are working with the default MacOS vim. I'd suggest to download the latest vim version using homebrew:
