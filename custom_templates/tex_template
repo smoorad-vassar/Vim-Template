@@ -1,0 +1,33 @@
+%% Document Class %%
+\documentclass{article}
+
+%% Packages %%
+
+%% Libraries %%
+
+%% General Settings %%
+
+%% Document Start %%
+\begin{document}
+    \begin{titlepage}
+        \begin{center}
+            \vspace{1cm}
+            \textbf{Main Title}\\
+            \vspace{0.5cm}
+            subtitle\\
+            \vspace{1.5cm}
+            \textbf{ID:}\\
+            \textbf{Name:}\\
+            \textbf{Supervisor:}\\
+            \vspace{4cm}
+            %% To include Graphics uncomment the line below %%
+            %% \includegraphics[width=4cm, height=4cm]{filename} %%
+            \vspace{4cm}
+
+            Department\\
+            Institution\\
+            Address\\
+            \today
+        \end{center}
+    \end{titlepage}
+\end{document}
