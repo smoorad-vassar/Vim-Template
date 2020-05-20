@@ -3,14 +3,13 @@
 Table of Contents
 =================
 
-* [Vim\-Template: A Boiler Plate Code Generator](#vim-template-a-boiler-plate-code-generator)
-  * [Description](#description)
-  * [Requirement](#requirement)
-  * [How to use it](#how-to-use-it)
+* [Description](#description)
+* [Requirement](#requirement)
+* [How to use it](#how-to-use-it)
     * [Default Templates](#default-templates)
     * [Custom Templates](#custom-templates)
-  * [Extra Information](#extra-information)
-  * [TODO](#todo)
+* [Extra Information](#extra-information)
+* [TODO](#todo)
 
 ## Description
 Vim-Template is my first attempt at writing a vim plugin so it might not be the best one out there. It's written
