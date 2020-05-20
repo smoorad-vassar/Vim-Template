@@ -69,6 +69,7 @@ def _custom(name):
 
     try:
         DIRC = os.path.expandvars(vim.eval("g:vim_template_custom_directory"))
+        DIRC = os.path.expanduser(DIRC)
     except vim.error:
         python_directory = str(os.path.dirname(os.path.realpath(__file__)))
         DIRC = python_directory + "/../custom_templates/"
