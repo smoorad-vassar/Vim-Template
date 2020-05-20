@@ -5,7 +5,7 @@ Table of Contents
 
 * [Description](#description)
 * [Requirement](#requirement)
-* [Installation Guide](#installation)
+* [Installation Guide](#installation-guide)
 * [How to use it](#how-to-use-it)
     * [Default Templates](#default-templates)
     * [Custom Templates](#custom-templates)
