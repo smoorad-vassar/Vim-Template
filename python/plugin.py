@@ -88,7 +88,9 @@ def write_to_vim(Buffer, final_file):
 
     final_file = final_file.split("\n")
     Buffer.append(final_file)
-    del Buffer[0]
+
+    if(vim.current.line == ""):
+        del vim.current.line
     pass
 
 
