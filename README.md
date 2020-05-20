@@ -58,10 +58,13 @@ That would add the default template for the file.
 
 ### Custom Templates
 To use a custom template first you need to create it. This can be done as follows:
-- Go to the plugin directory
-- Then go to the custom_templates directory
+- Set path for your custom templates.vimrc/init.vim using:
+```
+let g:vim_template_custom_directory
+```
+- If no path is set my custom_templates directory provided with the repo is used
 - Create a custom file with customName_template
-- For example there are two Makefile templates for C and C++ files as follows:
+- For example there are two Makefile templates for C and C++ files as follows in my custom_templates directory:
     - makec_template
     - makecpp_template
 - Now to use the custom template run the following code in vim:
@@ -84,4 +87,4 @@ By default the class name for Java files and title for HTML files is the file na
 
 ## TODO
 1. Implement boiler plate source code from header files
-2. Allow user to set a path for custom_templates directory
+2. <s>Allow user to set a path for custom_templates directory</s>
