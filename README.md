@@ -58,7 +58,7 @@ That would add the default template for the file.
 
 ### Custom Templates
 To use a custom template first you need to create it. This can be done as follows:
-- Set path for your custom templates.vimrc/init.vim using:
+- Set path for your custom templates in your vimrc/init.vim using:
 ```
 let g:vim_template_custom_directory
 ```
