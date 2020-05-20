@@ -5,6 +5,7 @@ Table of Contents
 
 * [Description](#description)
 * [Requirement](#requirement)
+* [Installation Guide](#installation)
 * [How to use it](#how-to-use-it)
     * [Default Templates](#default-templates)
     * [Custom Templates](#custom-templates)
@@ -24,6 +25,17 @@ brew install vim
 * Neovim requires you to install python3 module. Look up the documentation to install the module:
 ```
 :help provider
+```
+
+## Installation Guide
+Use your favourite plugin manager for vim i.e. Vundle, vim-plug  then add this to your vimrc/init.vim:
+1. Vundle
+```
+Plugin "saadparwaiz1/Vim-Template"
+```
+2. vim-plug
+```
+Plug "saadparwaiz1/Vim-Template"
 ```
 
 ## How to use it
