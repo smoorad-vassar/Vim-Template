@@ -118,8 +118,14 @@ def custom_template():
 
     if not final_file:
         file_name = _file_name(Buffer)
-        index = file_name.rfind(".")
-        name = file_name[0:index] + name
+
+        if not file_name:
+            name = "DEFAULT." + name
+        else:
+            index = file_name.rfind(".")
+            name = file_name[0:index+1] + name
+
+        print(name)
         final_file = _default(name)
 
     write_to_vim(Buffer, final_file)
