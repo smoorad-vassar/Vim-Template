@@ -35,8 +35,9 @@ def set_up_dict(DIRC):
     default_dict = {}
 
     for i in default_files:
-        default_dict[i.split("_")[0]] = i
-
+        index = i.rfind("_")
+        key = i[0:index]
+        default_dict[key] = i
     return default_dict
 
 
@@ -121,5 +122,5 @@ def custom_template():
 
 
 if __name__ == "__main__":
-    default_template()
+    set_up_dict("../custom_templates")
     pass
