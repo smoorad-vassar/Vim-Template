@@ -67,8 +67,12 @@ def _custom(name):
     if not name:
         return None
 
-    python_directory = str(os.path.dirname(os.path.realpath(__file__)))
-    DIRC = python_directory + "/../custom_templates/"
+    try:
+        DIRC = os.path.expandvars(vim.eval("g:vim_template_custom_directory"))
+    except vim.error:
+        python_directory = str(os.path.dirname(os.path.realpath(__file__)))
+        DIRC = python_directory + "/../custom_templates/"
+
     default_dict = set_up_dict(DIRC)
     return _final_buffer(name, DIRC, default_dict, None, None)
 
@@ -125,7 +129,6 @@ def custom_template():
             index = file_name.rfind(".")
             name = file_name[0:index+1] + name
 
-        print(name)
         final_file = _default(name)
 
     write_to_vim(Buffer, final_file)
