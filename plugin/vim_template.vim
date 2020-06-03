@@ -31,3 +31,7 @@ endfunction
 
 command! -nargs=0 DefaultTemplate call DefaultTemplate()
 command! -nargs=1 CustomTemplate call CustomTemplate(<f-args>)
+
+if exists('g:vim_template_autogenerate')
+    autocmd BufNewFile *.html, *.java, *.cpp, *.h, *.c, :DefaultTemplate
+endif

@@ -78,6 +78,14 @@ So for example to generate Makefile template for a C project we run:
 :CustomTemplate makec
 ```
 
+
+### Autogenerate Templates
+To automatically generate default templates add the following to your vimrc/init.vim:
+```
+let g:vim_template_autogenerate
+```
+
+
 ## Extra Information
 To use the default templates in a file that doesn't contain the proper extension. For, example if you want to add html boiler plate code to a text file called
 test.txt then the following code can be utilised:
